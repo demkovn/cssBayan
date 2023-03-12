@@ -195,6 +195,59 @@ button{
     width: 100%;
 }
 
+@media (max-width: 850px){
+    button {
+        font-family: 'Troika';
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .mem5-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem4-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem3-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem2-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem1-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem1_btn{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    }
+}
+
 @media (max-width: 500px){
     .content img{
         width: 300px;
@@ -251,55 +304,3 @@ button{
     }
 }
 
-@media (max-width: 850px){
-    button {
-        font-family: 'Troika';
-        font-size: 16px;
-        line-height: 30px;
-    }
-    .mem5-container:hover button{
-    color: black;
-    font-family: 'Troika';
-    font-size: 16px;
-    border: none;
-    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
-    width: 100%;
-    }
-    .mem4-container:hover button{
-    color: black;
-    font-family: 'Troika';
-    font-size: 16px;
-    border: none;
-    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
-    width: 100%;
-    }
-    .mem3-container:hover button{
-    color: black;
-    font-family: 'Troika';
-    font-size: 16px;
-    border: none;
-    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
-    width: 100%;
-    }
-    .mem2-container:hover button{
-    color: black;
-    font-family: 'Troika';
-    font-size: 16px;
-    border: none;
-    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
-    width: 100%;
-    }
-    .mem1-container:hover button{
-    color: black;
-    font-family: 'Troika';
-    font-size: 16px;
-    border: none;
-    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
-    width: 100%;
-    }
-    .mem1_btn{
-    color: black;
-    font-family: 'Troika';
-    font-size: 16px;
-    }
-}
