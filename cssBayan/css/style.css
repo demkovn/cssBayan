@@ -1,0 +1,305 @@
+@font-face {
+	font-family: 'Troika';
+	src: url('../fonts/Troika.eot');
+	src: local('☺'), url('../fonts/Troika.woff') format('woff'), url('../fonts/Troika.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'eliz';
+	src: url('../fonts/eliz.eot');
+	src: local('☺'), url('../fonts/eliz.woff') format('woff'), url('../fonts/eliz.ttf') format('truetype'), url('../fonts/eliz.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'you2013';
+	src: url('../fonts/you2013.eot');
+	src: local('☺'), url('../fonts/you2013.woff') format('woff'), url('../fonts/you2013.ttf') format('truetype'), url('../fonts/you2013.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+    background-color: azure;
+}
+
+main{
+    width: 100%;
+    background-color: azure;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Troika';
+    font-size: 50px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background: black;
+    width: 100%;
+}
+
+button{
+    color: blue;
+    font-family: 'eliz';
+    font-size: 16px;
+    border: none;
+    background: url(../img/open.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    transition: 0.5s;
+    line-height: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 1.3s;
+    background-color: azure;
+}
+
+.content img{
+    margin: 20px auto;
+}
+
+.mem1_btn{
+    color: black;
+    font-family: 'eliz';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+}
+
+/*.mem1-container:hover .mem1-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    transition: 1.3s;
+    cursor: pointer;
+    -webkit-animation: openImg 1s ease forwards;
+    -o-animation: openImg 1s ease forwards;
+    animation: openImg 1s ease forwards;
+}*/
+
+.mem2-content {
+    display: none;
+}
+
+.mem2-container:hover .mem2-content {
+    display: flex;
+    -webkit-animation: openImg 1s ease forwards;
+    -o-animation: openImg 1s ease forwards;
+    animation: openImg 1s ease forwards;
+}
+
+.mem3-content {
+    display: none;
+}
+
+.mem3-container:hover .mem3-content {
+    display: flex;
+    -webkit-animation: openImg 1s ease forwards;
+    -o-animation: openImg 1s ease forwards;
+    animation: openImg 1s ease forwards;
+}
+
+.mem4-content {
+    display: none;
+}
+
+.mem4-container:hover .mem4-content {
+    display: flex;
+    -webkit-animation: openImg 1s ease forwards;
+    -o-animation: openImg 1s ease forwards;
+    animation: openImg 1s ease forwards;
+}
+
+.mem5-content {
+    display: none;
+}
+
+.mem5-container:hover .mem5-content {
+    display: flex;
+    -webkit-animation: openImg 1s ease forwards;
+    -o-animation: openImg 1s ease forwards;
+    animation: openImg 1s ease forwards;
+}
+
+@keyframes openImg{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+        z-index: 1;
+    }
+}
+
+.mem1-container:hover button{
+    color: black;
+    font-family: 'eliz';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+}
+
+.mem2-container:hover button{
+    color: black;
+    font-family: 'eliz';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+}
+
+.mem3-container:hover button{
+    color: black;
+    font-family: 'eliz';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+}
+
+.mem4-container:hover button{
+    color: black;
+    font-family: 'eliz';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+}
+
+.mem5-container:hover button{
+    color: black;
+    font-family: 'eliz';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+}
+
+@media (max-width: 500px){
+    .content img{
+        width: 300px;
+    }
+    button {
+        font-family: 'you2013';
+        font-size: 11px;
+        line-height: 25px;
+    }
+    .mem5-container:hover button{
+    color: black;
+    font-family: 'you2013';
+    font-size: 11px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem4-container:hover button{
+    color: black;
+    font-family: 'you2013';
+    font-size: 11px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem3-container:hover button{
+    color: black;
+    font-family: 'you2013';
+    font-size: 11px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem2-container:hover button{
+    color: black;
+    font-family: 'you2013';
+    font-size: 11px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem1-container:hover button{
+    color: black;
+    font-family: 'you2013';
+    font-size: 11px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem1_btn{
+    color: black;
+    font-family: 'you2013';
+    font-size: 11px;
+    }
+}
+
+@media (max-width: 850px){
+    button {
+        font-family: 'Troika';
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .mem5-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem4-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem3-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem2-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem1-container:hover button{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    border: none;
+    background: url(../img/close.svg) 99%/auto no-repeat,  burlywood;
+    width: 100%;
+    }
+    .mem1_btn{
+    color: black;
+    font-family: 'Troika';
+    font-size: 16px;
+    }
+}
